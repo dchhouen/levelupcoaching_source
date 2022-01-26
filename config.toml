@@ -1,4 +1,4 @@
-baseURL = "https://dchhouen.github.io/levelupcoaching"
+baseURL = "https://levelupchess.netlify.app"
 languageCode = "en-us"
 title = "Level Up Chess Coaching"
 themesDir = "themes"
