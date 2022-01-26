@@ -1,0 +1,52 @@
+baseURL = "https://dchhouen.github.io/levelupcoaching"
+languageCode = "en-us"
+title = "Level Up Chess Coaching"
+themesDir = "themes"
+theme = "hugo-hero-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+    
+[params]
+  google_analytics_id=""
+
+  [params.logo]
+    mobile = "images/chess_pawn.png"
+    mobile_height = "36px"
+    mobile_width = "36px"
+    desktop = "images/levelupchess.jpg"
+    desktop_height = "29px"
+    desktop_width = "217px"
+    alt = "Level Up Chess Coaching"
+
+  [params.homepage_meta_tags]
+    meta_description = "Level Up Chess Coaching is a website to provide the best chessing lesson avaiable at an affordable price"
+    meta_og_title = "Level Up Chess Coaching"
+    meta_og_type = "website"
+    meta_og_url = ""
+    meta_og_image = ""
+    meta_og_description = "Level Up Chess Coaching is a website to provide the best chessing lesson avaiable at an affordable price"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@na"
+    meta_twitter_creator = "@na"
+
+[[menu.main]]
+	name = "Services"
+	url = "/services/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact "
+    url = "/contact/"
+    weight = 4
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
